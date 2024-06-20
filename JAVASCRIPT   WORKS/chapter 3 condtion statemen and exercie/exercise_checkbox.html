@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox and Radio Buttons</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="checkbox" id="subscribe">
+            <label for="subscribe">Subscribe</label>
+        </div>
+        <div>
+            <p>Payment Method:</p>
+            <input type="radio" id="visa" name="payment-method">
+            <label for="visa">Visa</label>
+            <input type="radio" id="mastercard" name="payment-method">
+            <label for="mastercard">Mastercard</label>
+            <input type="radio" id="paypal" name="payment-method">
+            <label for="paypal">PayPal</label>
+        </div>
+        <button type="button" id="submit-btn">Submit</button>
+        <p id="subresult"></p>
+        <p id="paymentresult"></p>
+    </form>
+    <script src="exercise_checkbox.js"></script>
+</body>
+</html>
